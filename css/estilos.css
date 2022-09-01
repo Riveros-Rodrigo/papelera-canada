@@ -112,7 +112,7 @@ header .menu a:hover {
 }
 .main .menu .contenedor-menu,
 .main .menu .contenedor-menu2{
-	border: 1px solid #000;
+	border: 1px solid #fdb7b5;
 	background-color: transparent;
 	padding: 10px;
 	overflow: hidden;
@@ -131,7 +131,7 @@ header .menu a:hover {
 .main .menu .platillo{
 	margin-bottom: 30px;
 	padding-bottom: 20px;
-	border-bottom:4px dotted #000;
+	border-bottom:4px dotted #fdb7b5;
 	overflow: hidden;
 }
 .main .menu .nombre{
@@ -210,12 +210,13 @@ header .menu a:hover {
 .main .mapa iframe{
 	width: 100%;
 	max-height: 600px;
+	vertical-align: top;
 }
 
 /* FOOTER */
 
 footer{
-	background-color: #fed9ad;
+	background-color: #fdb7b5;
 }
 footer .copyright{
 	text-align: center;
@@ -225,6 +226,7 @@ footer .copyright{
 footer .redes{
 	display: flex;
 	justify-content: center;
+	align-items: center;
 }
 footer .redes img{
 	margin: 20px 15px;
