@@ -24,10 +24,11 @@ body {
 
 header {
 	width: 100%;
-	background: url("../img/bg.jpg"), #281a0c;
+	background: url("../img/bg.jpg"), #fed9ad;
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center 0;
+	background-position-y: -100px;
 }
 
 header .contenedor {
@@ -41,7 +42,7 @@ header .menu {
 }
 
 header .menu a {
-	color: #fff;
+	color: #000;
 	font-size: 20px;
 	font-weight: 300;
 	display: inline-block;
@@ -52,29 +53,6 @@ header .menu a {
 
 header .menu a:hover {
 	text-decoration: underline;
-}
-
-header .textos {
-	width: 100%;
-	color: #fff;
-	position: absolute;
-	top: 50%;
-	margin-top: -52px;
-}
-
-header .textos .nombre {
-	font-size: 50px;
-	font-weight: 600;
-}
-
-header .textos .nombre span {
-	font-weight: 300;
-}
-
-header .textos h3 {
-	font-weight: 300;
-	font-size: 25px;
-	font-style: italic;
 }
 
 /* ----- ----- MAIN ----- ----- */
@@ -237,7 +215,7 @@ header .textos h3 {
 /* FOOTER */
 
 footer{
-	background-color: #000;
+	background-color: #fed9ad;
 }
 footer .copyright{
 	text-align: center;
@@ -255,9 +233,13 @@ footer .redes img{
 /* MEDIA QUERYS */
 
 @media screen and (max-width: 800px) {
+	header {
+		width: 100%;
+		background-image: url(../img/bg.jpg);
+		background-size: cover;
+	}
 	header .contenedor {
 		position: static;
-		height: auto;
 	}
 
 	header .textos {
@@ -271,14 +253,6 @@ footer .redes img{
 
 	header .menu a {
 		margin: 10px 20px;
-	}
-
-	header .textos .nombre {
-		font-size: 30px;
-	}
-
-	header .textos h3 {
-		font-size: 18px;
 	}
 
 	.main .acerca-de .foto {
@@ -312,6 +286,11 @@ footer .redes img{
 }
 
 @media screen and (max-width: 400px) {
+	header {
+		width: 100%;
+		background-image: url(../img/bg.jpg);
+		background-size: cover;
+	}
 	.main .acerca-de article h3 {
 		font-size: 34px;
 		margin-bottom: 10px;
