@@ -1,144 +1,176 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <title>Papelera Canadá - Inicio</title>
 </head>
-<body>
-    
+<body >
     <header>
-        <div class="contenedor">
-            <nav class="menu">
-                <a href="" id="btn-acerca-de">Acerca de</a>
-                <a href="" id="btn-menu">Productos</a>
-                <a href="" id="btn-galeria">Galería</a>
-                <a href="" id="btn-ubicacion">Ubicación</a>
-            </nav>
-        </div>
-    </header>
+		<div class="contenedor">
 
-    <section class="main">
-        <section class="acerca-de" id="acerca-de">
-            <div class="contenedor">
-                <div class="foto">
-                    <img src="./img/local.jpg" alt="">
+            <nav class="menu navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <button class="navbar-toggler col align-self-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Acerca de</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Productos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Galería</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Ubicación</a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
-                <article>
-                    <h3>Acerca de</h3>
+              </nav>
+
+
+			<!-- <nav class="menu">
+				<a href="#" id="btn-acerca-de">Acerca de</a>
+				<a href="#" id="btn-menu">Productos</a>
+				<a href="#" id="btn-galeria">Galería</a>
+				<a href="#" id="btn-ubicacion">Ubicación</a>
+			</nav> -->
+
+			<div class="textos">
+				<h1 class="nombre">Papelera <span>Canadá</span></h1>
+				<h3>La mejor calidad</h3>
+			</div>
+		</div>
+	</header>
+
+	<section class="main">
+		<section class="acerca-de" id="acerca-de">
+			<div class="contenedor">
+				<div class="foto">
+					<img src="img/acerca-de.jpg" alt="">
+				</div>
+				<article>
+					<h3>Acerca de</h3>
                     <p>Bienvenidos a “Papelera Canadá🍁"</p>
                     <p>Somos de Ingeniero Budge, Lomas de Zamora, atendemos de lunes a lunes. Abierto de 08:00 am a 20:00 pm (días de semana) y de 08:00 am a 22:00 pm (fines de semana).</p>
-                </article>
-            </div>
-        </section>
+				</article>
+			</div>
+		</section>
 
-        <section class="menu">
-            <div class="contenedor">
-                <h3 class="titulo" id="platillos">Algunos Productos</h3>
-                <div class="contenedor-menu">
-                    <div class="contenedor-menu2">
-                        <article>
-                            <p class="categoria">Cotillon</p>
-                            <div class="platillo">
-                                <p class="nombre">Bandeja dorada</p>
-                                <p class="precio">$200</p>
-                                <p class="descripcion">Bandeja dorada para torta número “30” (por unidad)</p>
-                            </div>
-                            <div class="platillo">
-                                <p class="nombre">Velas para cumpleaños</p>
-                                <p class="precio">$60</p>
-                                <p class="descripcion">Velas para cumpleaños perladas (por unidad)</p>
-                            </div>
-                            <div class="platillo">
-                                <p class="nombre">Globos metalizados</p>
-                                <p class="precio">$150</p>
-                                <p class="descripcion">Globos metalizados numero 3 (por unidad)</p>
-                            </div>
-                            <div class="platillo">
-                                <p class="nombre">Paquete de globos</p>
-                                <p class="precio">$1650</p>
-                                <p class="descripcion">Paquete de globos de 12 pulgadas perlados (50 unidades)</p>
-                            </div>
-                        </article>
+		<section class="menu">
+			<div class="contenedor">
+				<h3 class="titulo" id="platillos">Algunos Productos</h3>
+				<div class="contenedor-menu">
+					<div class="contenedor-menu2">
+						<article>
+							<p class="categoria">Cotillon</p>
+							<div class="platillo">
+								<p class="nombre">Bandeja dorada</p>
+								<p class="precio">$200</p>
+								<p class="descripcion">Bandeja dorada para torta número “30” (por unidad)</p>
+							</div>
+							<div class="platillo">
+								<p class="nombre">Velas para cumpleaños</p>
+								<p class="precio">$60</p>
+								<p class="descripcion">Velas para cumpleaños perladas (por unidad)</p>
+							</div>
+							<div class="platillo">
+								<p class="nombre">Globos metalizados</p>
+								<p class="precio">$150</p>
+								<p class="descripcion">Globos metalizados numero 3 (por unidad)</p>
+							</div>
+							<div class="platillo">
+								<p class="nombre">Paquete de globos</p>
+								<p class="precio">$1650</p>
+								<p class="descripcion">Paquete de globos de 12 pulgadas perlados (50 unidades)</p>
+							</div>
+						</article>
+						
+						<article>
+							<p class="categoria">Descartables</p>
+							<div class="platillo">
+								<p class="nombre">Bolsa camiseta 40x50</p>
+								<p class="precio">$240</p>
+								<p class="descripcion">Bolsa camiseta 40x50 económica (80 unidades)</p>
+							</div>
+							<div class="platillo">
+								<p class="nombre">Bolsa de arranque 15x20</p>
+								<p class="precio">$400</p>
+								<p class="descripcion">Bolsa de arranque 15x20 (200 unidades)</p>
+							</div>
+							<div class="platillo">
+								<p class="nombre">Bolsa de residuo 45x60</p>
+								<p class="precio">$140</p>
+								<p class="descripcion">Bolsa de residuo 45x60 por (10 unidades)</p>
+							</div>
+							<div class="platillo">
+								<p class="nombre">Bolsa riñón 20x30</p>
+								<p class="precio">$500</p>
+								<p class="descripcion">Bolsa riñón medida 20x30 por (50 unidades)</p>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div>
+		</section>
 
-                        <article>
-                            <p class="categoria">Descartables</p>
-                            <div class="platillo">
-                                <p class="nombre">Bolsa camiseta 40x50</p>
-                                <p class="precio">$240 </p>
-                                <p class="descripcion">Bolsa camiseta 40x50 económica (80 unidades)</p>
-                            </div>
-                            <div class="platillo">
-                                <p class="nombre">Bolsa de arranque 15x20</p>
-                                <p class="precio">$400</p>
-                                <p class="descripcion">Bolsa de arranque 15x20 (200 unidades)</p>
-                            </div>
-                            <div class="platillo">
-                                <p class="nombre">Bolsa de residuo 45x60</p>
-                                <p class="precio">$140</p>
-                                <p class="descripcion">Bolsa de residuo 45x60 por (10 unidades)</p>
-                            </div>
-                            <div class="platillo">
-                                <p class="nombre">Bolsa riñón 20x30</p>
-                                <p class="precio">500$</p>
-                                <p class="descripcion">Bolsa riñón medida 20x30 por (50 unidades)</p>
-                            </div>
-                        </article>
-                    </div>
-                </div>
-            </div>
-        </section>
+		<section class="galeria" id="galeria">
+			<div class="foto">
+				<img src="img/1.jpg" alt="">
+			</div>
+			<div class="foto">
+				<img src="img/2.jpg" alt="">
+			</div>
+			<div class="foto">
+				<img src="img/3.jpg" alt="">
+			</div>
+			<div class="foto">
+				<img src="img/4.jpg" alt="">
+			</div>
+			<div class="foto">
+				<img src="img/5.jpg" alt="">
+			</div>
+			<div class="foto">
+				<img src="img/6.jpg" alt="">
+			</div>
+			<div class="foto">
+				<img src="img/7.jpg" alt="">
+			</div>
+			<div class="foto">
+				<img src="img/8.jpg" alt="">
+			</div>
+		</section>
 
-        <section class="galeria" id="galeria">
-            <div class="foto">
-                <img src="./img/1.jpg" alt="">
-            </div>
-            <div class="foto">
-                <img src="./img/2.jpg" alt="">
-            </div>
-            <div class="foto">
-                <img src="./img/3.jpg" alt="">
-            </div>
-            <div class="foto">
-                <img src="./img/4.jpg" alt="">
-            </div>
-            <div class="foto">
-                <img src="./img/5.jpg" alt="">
-            </div>
-            <div class="foto">
-                <img src="./img/6.jpg" alt="">
-            </div>
-            <div class="foto">
-                <img src="./img/7.jpg" alt="">
-            </div>
-            <div class="foto">
-                <img src="./img/8.jpg" alt="">
-            </div>
-        </section>
-
-        <section class="ubicacion" id="ubicacion">
-            <div class="contenedor">
-                <h3 class="titulo">Ubicación</h3>
-                <div class="direccion">
-                    <p class="calle">Canadá 2165</p>
+		<section class="ubicacion" id="ubicacion">
+			<div class="contenedor">
+				<h3 class="titulo">Ubicación</h3>
+				<div class="direccion">
+					<p class="calle">Canadá 2165</p>
                     <p class="telefono">1234567891</p>
                     <p class="correo">papelera.ca@gmail.com</p>
-                </div>
-                <div class="horarios">
-                    <h4>Horarios</h4>
-                    <p class="entre-semana">Lunes a Viernes <br> 8:00am - 20:00pm</p>
+				</div>
+				<div class="horarios">
+					<h4>Horarios</h4>
+					<p class="entre-semana">Lunes a Viernes <br> 8:00am - 20:00pm</p>
                     <p class="fin-semana">Sabados y Domingos <br> 8:00am - 22:00pm</p>
-                </div>
-            </div>
-        </section>
+				</div>
+			</div>
+		</section>
 
-        <section class="mapa">
+		<section class="mapa">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.316057424545!2d-58.45768608255615!3d-34.722426899999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccdd3ea0a16b5%3A0x424a9f3aeb9aab89!2sC.%20Canad%C3%A1%202165%2C%20B1821CDA%20Ingeniero%20Budge%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1662044456586!5m2!1ses-419!2sar" width="1600" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
-        
-    </section>
+	</section>
 
     <footer>
         <div class="contenedor">
@@ -153,6 +185,9 @@
         </div>
     </footer>
 
-
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/parallax.js"></script>
+	<script src="js/efectos.js"></script>
 </body>
 </html>
