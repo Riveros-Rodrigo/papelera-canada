@@ -56,6 +56,9 @@ header .menu a:hover {
 header .navbar-toggler{
     border: none;
 }
+header nav .fixed-top{
+	text-align: center;
+}
 
 header .textos {
 	width: 100%;
